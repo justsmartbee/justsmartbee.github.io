@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-color: #dfdfdf;
+}
+
+.e1 {
+	background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 0%, rgba(8,8,8,1) 100%);
+    width: 100%;
+    height: 50px;
+    overflow-y: hidden;
+}
+
+.e2 {
+	height: 55px;
+	width: 55px;
+	top: 0;
+    position: fixed;
+    margin-top: -2.5px;
+	margin-left: -27.5px;
+	transition: transform 0.25s ease-out;
+	filter: invert(0);
+}
+
+.e2:hover {
+	transform: scale(1.15);
+}
+
+.e3 {
+	width: 90%;
+}
+
+.e3-1 {
+	margin-top: 350px;
+}
+
+.skrold {
+	filter: invert(1);
+}
+
+.e4 {
+	width: 100%;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+  }
+
+html::-webkit-scrollbar-track {
+    background: rgb(179, 177, 177);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 10px;
+  }
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+  }
+
+html::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+  }
